@@ -23,7 +23,7 @@ const Graph = (props) => {
 					<span id="current-balance">$543.22</span>
 				</div>
 				<div>
-					<img src={logo} />
+					<img src={logo} alt='logo' />
 				</div>
 			</div>
 			<div className="graph-box">
