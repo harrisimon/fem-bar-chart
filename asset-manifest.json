@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/fem-bar-chart/static/css/main.e7dad27f.css",
+    "main.js": "/fem-bar-chart/static/js/main.78be2bc5.js",
+    "static/js/787.b3c90c9c.chunk.js": "/fem-bar-chart/static/js/787.b3c90c9c.chunk.js",
+    "index.html": "/fem-bar-chart/index.html",
+    "static/media/logo.svg": "/fem-bar-chart/static/media/logo.99d5b9138a1a64cc6858cdac9a9d3bd4.svg",
+    "main.e7dad27f.css.map": "/fem-bar-chart/static/css/main.e7dad27f.css.map",
+    "main.78be2bc5.js.map": "/fem-bar-chart/static/js/main.78be2bc5.js.map",
+    "787.b3c90c9c.chunk.js.map": "/fem-bar-chart/static/js/787.b3c90c9c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7dad27f.css",
+    "static/js/main.78be2bc5.js"
+  ]
+}
