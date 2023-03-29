@@ -7,6 +7,19 @@ import { useEffect, useState } from "react"
 function App() {
   const d = new Date()
   const date_day = d.getDay()
+  const [isMobile, setIsMobile] = useState(false)
+
+  const handleResize = () => {
+    if(window.innerWidth < 500){
+      setIsMobile(true)
+    } else {
+      setIsMobile(false)
+    }
+  }
+
+  useEffect(()=> {
+    window.addEventListener('resize', handleResize)
+  },[])
 
   let day
   switch(date_day){
@@ -33,10 +46,16 @@ function App() {
       break
   }
 
+  let appStyle = isMobile ? {display:'flex', margin:'0'}:{display: 'flex'}
+
 	return (
-    <React.Fragment>
+    <div className="App" style={{
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+  }}>
       <Graph data={data} curr_day={day} />
-    </React.Fragment>
+    </div>
 	)
 }
 
